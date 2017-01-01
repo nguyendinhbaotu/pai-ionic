@@ -1,0 +1,99 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+.messages {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+    li {
+        display:block;
+        clear:both;
+        max-width:80%;
+        margin:0 0 1rem 0;
+        padding:0;
+        &.right {
+            float: right;
+            img {
+                float: right;
+            }
+            p {
+                background:#158ffe;
+	            color:#fff;
+            }
+        }
+    }
+    p {
+        border-radius:.75rem;
+        background:#e6e5eb;
+        color:#383641;
+        padding:.6875rem;
+        margin:0;
+        font-size:2rem;
+    }
+    img {
+        display:block;
+        max-width:65%;
+        border-radius:.75rem;
+    }
+}
+
+// .messages {
+// 	margin:0;
+// 	padding:0;
+// 	list-style-type:none;
+// }
+
+// .messages li {
+// 	display:block;
+// 	clear:both;
+// 	max-width:80%;
+// 	margin:0 0 1rem 0;
+// 	padding:0;
+//     &.right {
+//         float: right;
+//         img {
+//             float: right;
+//         }
+//     }
+// }
+
+// .messages li:nth-child(even) {
+// 	float:right;
+// }
+
+// .messages li:nth-child(even) img {
+// 	float:right;
+// }
+
+// .messages p {
+// 	border-radius:.75rem;
+// 	background:#e6e5eb;
+// 	color:#383641;
+// 	padding:.6875rem;
+// 	margin:0;
+// 	font-size:2rem;
+// }
+
+// .messages li:nth-child(even) p {
+// 	background:#158ffe;
+// 	color:#fff;
+// }
+
+// .messages img {
+// 	display:block;
+// 	max-width:65%;
+// 	border-radius:.75rem;
+// }
